@@ -12,7 +12,7 @@
 """
 
 
-class CarBuilder:
+class CarBuilder(object):
     def build_car(self):
         raise NotImplementedError
 
